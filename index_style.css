@@ -1,0 +1,195 @@
+/* For index.php */
+body.for_index.php
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+div.header
+{
+    display: flex;
+    background-color: #800000;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    width: 100%;
+}
+        div.header-one{
+            background-color: #e6e6e6;
+            margin: 3px;
+            padding: 3px;
+            width: 35px;
+            text-align: center;
+        }
+        div.header-two{
+            background-color: #e6e6e6;
+            color: #000000;
+            margin: 3px;
+            margin-left: 0px;
+            padding-top: 8px;
+            padding-bottom: 12px;
+            font-size: 35px;
+            width: 100%;
+            text-align: center;
+        }
+
+
+div.body
+{
+    display: flex;
+    padding-top: 0px;
+    background-color: #800000;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 100%;
+}
+        div.body-one{
+            background-color: #f1f1f1;
+            height: auto;
+            margin: 3px;
+            margin-top: 0px;
+            margin-right: 0px;
+            padding: 3px;
+            padding-right: 7px;
+            width: 180px;
+            text-align: center;
+            border-right: 1px solid rgb(113, 113, 113);
+        }
+
+        div.body-two{
+            background-color: #ffffff;
+            height: auto;
+            margin: 3px;
+            margin-top: 0px;
+            margin-left: 0px;
+            padding: 3px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+button.btnA
+{
+    height: 60px;
+    width: 100%;
+    margin: 2px;
+    margin: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:#ffffff;
+}
+        .btnA:hover {
+            background-color: #d1ffd1;
+        }
+
+        .btnA.active {
+            background-color: #7be47d;
+            color: #000000;
+        }
+        
+button.btn
+{
+    height: 60px;
+    width: 100%;
+    margin: 2px;
+    margin: 2px;
+    font-size: 16px;
+    background-color:#ffffff;
+}
+        .btn:hover {
+            background-color: #fff9d0;
+        }
+
+        .btn.active {
+            background-color: #f9e771;
+            color: #000000;
+        }
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;  
+    font-size: 14px;
+}
+
+th
+{
+    width: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 6px;
+    font-size: 14px;
+}
+
+td
+{
+    width: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 6px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: top;
+}
+
+a.header
+{
+    position: static;
+    font-size: 28px;
+   /*border: 1px solid #a1ad21;*/
+}
+
+div.login
+{
+    position:absolute;
+    top: 13px;
+    right: 13px;
+}
+
+a.notlogin
+{
+    color: #414141;
+    font-size: 16px;
+}
+    .notlogin:hover
+    {
+        color: #0011ff;
+        font-size: 16px;
+    }
+
+a.logined
+{
+    color: #ff0000;
+    font-size: 16px;
+}
+    .logined:hover
+    {
+        color: #ce0000;
+        font-size: 16px;
+    }
+
+a.back
+{
+    color: #9e4200;
+    font-size: 16px;
+}
+    .back:hover
+    {
+        color: #863800;
+        font-size: 16px;
+    }
+
+a.additem
+{
+    color: #008006;
+    font-size: 16px;
+    text-decoration: underline;
+}
+    .additem:hover
+    {
+        color: #0f5900;
+        font-size: 16px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
